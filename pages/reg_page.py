@@ -1,5 +1,5 @@
-from RT.page_rt.base import WebPage
-from RT.page_rt.elements import WebElement
+from pages.base import WebPage
+from pages.elements import WebElement
 
 
 class RegPage(WebPage):
