@@ -12,7 +12,9 @@ tests/ содержит основные smoke Web UI тесты для стра
 
 Что нужно для запуска тестов
   1. Установить все библиотеки:
+
      pip3 install -r requirements
-  2. Скачать SeleniumWebDriver https://chromedriver.chromium.org/downloads (выбрать версию, которая совместима с вашим браузером)
-  3. Запустить тесты через терминал:
+  3. Скачать SeleniumWebDriver https://chromedriver.chromium.org/downloads (выбрать версию, которая совместима с вашим браузером)
+  4. Запустить тесты через терминал:
+
      python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*
