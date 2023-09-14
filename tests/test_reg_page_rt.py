@@ -1,4 +1,4 @@
-from RT.page_rt.reg_page import RegPage
+from pages.reg_page import RegPage
 
 
 def test_reg_form(web_browser):
