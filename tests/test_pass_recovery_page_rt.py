@@ -1,4 +1,4 @@
-from RT.page_rt.pass_recovery_page import PassRecPage
+from pages.pass_recovery_page import PassRecPage
 import time
 
 
