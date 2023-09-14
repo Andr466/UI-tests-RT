@@ -1,4 +1,4 @@
-from RT.page_rt.auth_page import AuthPage
+from pages.auth_page import AuthPage
 
 
 def test_auth_by_email(web_browser):
